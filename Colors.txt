@@ -1,0 +1,17 @@
+Solid bg color #101332
+Gradient bg #252C67,#101332
+border #252C67
+green #24A488
+Green Gredient [#65FA7D] to-[#24A488]
+
+
+Green
+bg-gradient-to-r from-[#65FA7D] to-[#24A488] bg-clip-text text-transparent
+
+
+Greeb-Button
+bg-gradient-to-r from-[#65FA7D] to-[#24A488] hover:from-[#4bcf68] hover:to-[#1f8f71]
+
+
+blue
+bg-[radial-gradient(circle_at_left,#252C67,#101332)]
