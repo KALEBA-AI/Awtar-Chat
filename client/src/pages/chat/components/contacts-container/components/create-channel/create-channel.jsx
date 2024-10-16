@@ -68,7 +68,7 @@ const CreateChannel = () => {
             />
           </TooltipTrigger>
           <TooltipContent className="bg-[#252C67] rounded-full border-none mb-2 p-3">
-            Create New Channel
+            Create New Team Chat
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -78,11 +78,11 @@ const CreateChannel = () => {
         </DialogDescription>
         <DialogContent className="bg-[radial-gradient(circle_at_left,#252C67,#101332)] border-none text-white w-[400px] h-max flex flex-col">
           <DialogHeader>
-            <DialogTitle>Create a new Channel</DialogTitle>
+            <DialogTitle>Create a new Team Chat</DialogTitle>
           </DialogHeader>
           <div>
             <Input
-              placeholder="Channel Name"
+              placeholder="Team Name"
               className="rounded-lg py-6 px-4 bg-[#252C67] border-none"
               value={channelName}
               onChange={(e) => setChannelName(e.target.value)}
@@ -92,11 +92,11 @@ const CreateChannel = () => {
             <MultipleSelector
               className="rounded-lg bg-[#252C67] border-none py-2 text-white"
               defaultOptions={allContacts}
-              placeholder="Search Contacts"
+              placeholder="Search Colleagues"
               value={selectedContacts}
               onChange={setSelectedContacts}
               emptyIndicator={
-                <p className="text-center text-lg leading-10 text-gray-600 dark:text-gray-400">
+                <p className="text-center text-lg leading-10 text-blue-900 dark:text-blue-400">
                   No results found.
                 </p>
               }
@@ -107,7 +107,7 @@ const CreateChannel = () => {
               onClick={createChannel}
               className=" w-full bg-gradient-to-r from-[#65FA7D] to-[#24A488] hover:from-[#4bcf68] hover:to-[#1f8f71] transition-all duration-300"
             >
-              Create Channel
+              Create Team
             </Button>
           </div>
         </DialogContent>

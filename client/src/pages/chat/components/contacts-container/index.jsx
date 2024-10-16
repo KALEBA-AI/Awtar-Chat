@@ -50,7 +50,7 @@ const ContactsContainer = () => {
       </div>
       <div className="my-5">
         <div className="flex items-center justify-between pr-10">
-          <Title text="Direct Messages" />
+          <Title text="Peer Chat" />
           <NewDM />
         </div>
         <div className="max-h-[38vh] overflow-y-auto scrollbar-hidden">
@@ -59,7 +59,7 @@ const ContactsContainer = () => {
       </div>
       <div className="my-5">
         <div className="flex items-center justify-between pr-10">
-          <Title text="Channels" />
+          <Title text="Unit Chatroom" />
           <CreateChannel />
         </div>
         <div className="max-h-[37vh] overflow-y-auto scrollbar-hidden pb-5">

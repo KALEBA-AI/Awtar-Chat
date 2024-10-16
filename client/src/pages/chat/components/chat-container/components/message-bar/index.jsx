@@ -1,4 +1,4 @@
-import { IoSend } from "react-icons/io5";
+import { FaArrowUpLong } from "react-icons/fa6";
 import { TiAttachmentOutline } from "react-icons/ti";
 import { MdEmojiEmotions } from "react-icons/md";
 import EmojiPicker from "emoji-picker-react";
@@ -158,7 +158,7 @@ const MessageBar = () => {
   className="bg-gradient-to-r from-[#65FA7D] to-[#24A488] hover:from-[#4bcf68] hover:to-[#1f8f71] focus:from-[#4bcf68] focus:to-[#1f8f71] rounded-full flex items-center justify-center p-5 gap-2 transition-all duration-300"
   onClick={handleSendMessage}
 >
-  <IoSend className="text-2xl text-white" />
+  <FaArrowUpLong className="text-2xl text-white" />
 </button>
 
     </div>
