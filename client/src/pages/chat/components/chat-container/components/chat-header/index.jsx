@@ -35,7 +35,7 @@ const ChatHeader = () => {
               <div
                 className={` bg-[#ffffff22] py-3 px-5 flex items-center justify-center rounded-full`}
               >
-                #
+                @
               </div>
             )}
           </div>

@@ -146,7 +146,7 @@ const MessageBar = () => {
           </button>
           <div className="absolute bottom-16 right-0" ref={emojiRef}>
             <EmojiPicker
-              theme="dark"
+              theme="light"
               open={emojiPickerOpen}
               onEmojiClick={handleAddEmoji}
               autoFocusSearch={false}

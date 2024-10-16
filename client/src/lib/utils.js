@@ -6,11 +6,14 @@ export function cn(...inputs) {
 }
 
 export const colors = [
-  "bg-[#712c4a57] text-[#ff006e] border-[1px] border-[#ff006faa]",
-  "bg-[#ffd60a2a] text-[#ffd60a] border-[1px] border-[#ffd60abb]",
-  "bg-[#06d6a02a] text-[#06d6a0] border-[1px] border-[#06d6a0bb]",
-  "bg-[#4cc9f02a] text-[#4cc9f0] border-[1px] border-[#4cc9f0bb]",
+  "bg-[#1a1d4550] text-[#fff] border-[1px] border-[#1a1d45]",
+  "bg-[#2e346750] text-[#fff] border-[1px] border-[#2e3467]",
+  "bg-[#22946a50] text-[#fff] border-[1px] border-[#22946a]",
+  "bg-[#53e27d50] text-[#fff] border-[1px] border-[#53e27d]",
 ];
+
+
+
 
 export const getColor = (color) => {
   if (color >= 0 && color < colors.length) {

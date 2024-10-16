@@ -143,7 +143,7 @@ const Profile = () => {
                 />
               ) : (
                 <div
-                  className={`uppercase h-32 w-32 md:w-48 md:h-48  text-5xl bg-[#712c4a57] text-[#ff006e] border-[1px] border-[#ff006faa] flex items-center justify-center rounded-full`}
+                  className={`uppercase h-32 w-32 md:w-48 md:h-48  text-5xl bg-[#2c714e57] text-[#27a532] border-[1px] border-[#1f9232aa] flex items-center justify-center rounded-full`}
                 >
                   {firstName
                     ? firstName.split("").shift()

@@ -1,8 +1,18 @@
-# React + Vite
+Awtar Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Awtar is a modern chat application designed to enhance communication within organizations, specifically tailored for employees of a company. With Awtar, users can engage in seamless conversations, share information, and collaborate effectively across departments.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    User Accounts: Employees can create their own accounts using their company email and personal details.
+    Chat Interface: Direct messaging between employees for quick and effective communication.
+    Departmental Chats: Dedicated chat spaces for departments to discuss and collaborate on projects.
+    User Profiles: Each user has a profile that includes their name and image for better identification.
+
+    Technologies Used
+
+    Frontend: React
+    Backend: Node.js
+    Real-time Communication: Socket.io
+    Database: MongoDB
+    Development Environment: Visual Studio Code
