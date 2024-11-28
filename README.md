@@ -1,4 +1,4 @@
-Awtar Chat App
+<h1>Awtar Chat App<h1>
 Awtar is an intuitive and efficient chat application designed to improve communication and collaboration within organizational environments. Developed using modern web technologies, Awtar connects employees seamlessly, ensuring fast, reliable, and secure messaging.
 
 Features
