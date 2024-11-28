@@ -17,6 +17,16 @@ Awtar Chat App is a real-time messaging platform designed to enhance communicati
 - **Database:** MongoDB
 - **Websockets:** Socket.io for real-time communication
 
+## Database Setup
+
+To enable login functionality and modify the database, you must first set up a MongoDB database.
+
+1. Modify the .env File:Open the .env file in the server directory of the project.
+2. Set the DATABASE_URL variable with the connection string to your MongoDB database:
+   ```bash
+DATABASE_URL="mongodb+srv://yourdatabase"
+
+
 ## Setup and Installation
 
 1. Clone the repository:
