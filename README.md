@@ -22,3 +22,8 @@ Awtar Chat App is a real-time messaging platform designed to enhance communicati
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/awtar-chat.git
+
+1. Install Dependencies:
+   ```bash
+   # For frontend
+   cd client && npm install
