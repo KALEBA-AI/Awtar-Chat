@@ -22,9 +22,11 @@ Awtar Chat App is a real-time messaging platform designed to enhance communicati
 To enable login functionality and modify the database, you must first set up a MongoDB database.
 
 1. Modify the .env File:Open the .env file in the server directory of the project.
+
 2. Set the DATABASE_URL variable with the connection string to your MongoDB database:
    ```bash
-DATABASE_URL="mongodb+srv://yourdatabase"
+   #Replace yourdatabase with the actual name of your MongoDB database.
+   export DATABASE_URL="mongodb+srv://yourdatabase"
 
 
 ## Setup and Installation
