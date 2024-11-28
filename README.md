@@ -1,9 +1,24 @@
-<h1>Awtar Chat App</h1>
-<p>Awtar is an intuitive and efficient chat application designed to improve communication and collaboration within organizational environments. Developed using modern web technologies, Awtar connects employees seamlessly, ensuring fast, reliable, and secure messaging.</p>
+# Awtar Chat App
 
-<h1>Features</h1>
-User Authentication: Secure login with email, password, and user profile details.
-Real-Time Messaging: Instant communication powered by Socket.io.
-Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
-Profile Management: Customizable user profiles with uploaded images.
-Scalable Architecture: Built for future scalability with a robust database structure.
+Awtar Chat App is a real-time messaging platform designed to enhance communication and collaboration within organizations. Developed using modern technologies like React, Node.js, MongoDB, and Socket.io, it provides a seamless user experience for internal messaging.
+
+## Features
+
+- Real-time messaging with instant updates
+- User authentication and profile management
+- Secure storage of user data
+- Responsive design for optimal use on different devices
+- Scalable backend architecture
+
+## Technologies Used
+
+- **Frontend:** React.js
+- **Backend:** Node.js with Express
+- **Database:** MongoDB
+- **Websockets:** Socket.io for real-time communication
+
+## Setup and Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/awtar-chat.git
