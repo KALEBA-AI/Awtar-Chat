@@ -2,6 +2,8 @@
 
 Awtar Chat App is a real-time messaging platform designed to enhance communication and collaboration within organizations. Developed using modern technologies like React, Node.js, MongoDB, and Socket.io, it provides a seamless user experience for internal messaging.
 
+![Awtar UI](client/src/assets/Login-Page-ui.PNG)
+
 ## Features
 
 - Real-time messaging with instant updates
